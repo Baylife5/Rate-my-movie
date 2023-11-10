@@ -1,0 +1,56 @@
+.bar {
+    fill: #1888d6;
+    transition: all 150ms ease;
+  }
+  
+
+.bar:hover {
+    fill: #09163d;
+}
+ 
+.tip{
+    width: 9rem;
+    background-color: #eee;
+    text-align: center;
+    box-shadow: 0px 2px 10px -2px #aaa;
+    border: 2px solid #444;
+    transition: all 160ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.tip::after{
+      content: " ";
+      position: absolute;
+      bottom: -.5rem;
+      left: 50%;
+      margin-left: -.5rem;
+      border-style: solid;
+      border-width: .5rem .5rem 0 .5rem;
+      border-color: #444 transparent transparent transparent;
+}
+
+.tooltip{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: steelblue;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    border: 2px solid black;
+    font-family: Georgia, serif;
+    pointer-events: none;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    height: 300px; /* Set the desired height */
+    width: 800px; /* Set the desired width */
+}

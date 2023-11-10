@@ -1,0 +1,331 @@
+[
+  {
+    "reviewer": "Thomas Stoneman",
+    "title": "Archer",
+    "release date": 2009,
+    "genre": "Animation",
+    "rating": "8.0"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Archer",
+    "release date": 2009,
+    "genre": "Animation",
+    "rating": "7.5"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Archer",
+    "release date": 2009,
+    "genre": "Animation",
+    "rating": "8.5"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Archer",
+    "release date": 2009,
+    "genre": "Animation",
+    "rating": "7.7"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Archer",
+    "release date": 2009,
+    "genre": "Animation",
+    "rating": "8.9"
+  },
+  {
+    "reviewer": "Thomas Stoneman",
+    "title": "Arrested Development",
+    "release date": 2003,
+    "genre": "Comedy",
+    "rating": "8.1"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Arrested Development",
+    "release date": 2003,
+    "genre": "Comedy",
+    "rating": "6.0"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Arrested Development",
+    "release date": 2003,
+    "genre": "Comedy",
+    "rating": "8.0"
+  },
+  {
+    "reviewer": "Pinkie Petit",
+    "title": "Arrested Development",
+    "release date": 2003,
+    "genre": "Comedy",
+    "rating": "8.4"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Arrested Development",
+    "release date": 2003,
+    "genre": "Comedy",
+    "rating": "9.9"
+  },
+  {
+    "reviewer": "Thomas Stoneman",
+    "title": "Bob's Burgers",
+    "release date": 2011,
+    "genre": "Animation",
+    "rating": "7.0"
+  },
+  {
+    "reviewer": "Pinkie Petit",
+    "title": "Bob's Burgers",
+    "release date": 2011,
+    "genre": "Animation",
+    "rating": "7.5"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Bob's Burgers",
+    "release date": 2011,
+    "genre": "Animation",
+    "rating": "8.0"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Bob's Burgers",
+    "release date": 2011,
+    "genre": "Animation",
+    "rating": "7.1"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Bob's Burgers",
+    "release date": 2011,
+    "genre": "Animation",
+    "rating": "8.0"
+  },
+  {
+    "reviewer": "Thomas Stoneman",
+    "title": "Bojack Horseman",
+    "release date": 2014,
+    "genre": "Animation",
+    "rating": "7.5"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Bojack Horseman",
+    "release date": 2014,
+    "genre": "Animation",
+    "rating": "7.8"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Bojack Horseman",
+    "release date": 2014,
+    "genre": "Animation",
+    "rating": "8.3"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Bojack Horseman",
+    "release date": 2014,
+    "genre": "Animation",
+    "rating": "7.6"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Bojack Horseman",
+    "release date": 2014,
+    "genre": "Animation",
+    "rating": "8.5"
+  },
+  {
+    "reviewer": "Thomas Stoneman",
+    "title": "Breaking Bad",
+    "release date": 2008,
+    "genre": "Drama",
+    "rating": "9.5"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Breaking Bad",
+    "release date": 2008,
+    "genre": "Drama",
+    "rating": "9.0"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Breaking Bad",
+    "release date": 2008,
+    "genre": "Drama",
+    "rating": "9.1"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Breaking Bad",
+    "release date": 2008,
+    "genre": "Drama",
+    "rating": "9.3"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Breaking Bad",
+    "release date": 2008,
+    "genre": "Drama",
+    "rating": "9.9"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Curb Your Enthusiasm",
+    "release date": 2000,
+    "genre": "Comedy",
+    "rating": "6.5"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Curb Your Enthusiasm",
+    "release date": 2000,
+    "genre": "Comedy",
+    "rating": "7.8"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Curb Your Enthusiasm",
+    "release date": 2000,
+    "genre": "Comedy",
+    "rating": "8.8"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Curb Your Enthusiasm",
+    "release date": 2000,
+    "genre": "Comedy",
+    "rating": "8.4"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Curb Your Enthusiasm",
+    "release date": 2000,
+    "genre": "Comedy",
+    "rating": "9.1"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Fargo",
+    "release date": 2014,
+    "genre": "Drama",
+    "rating": "9.1"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Fargo",
+    "release date": 2014,
+    "genre": "Drama",
+    "rating": "9.7"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Freaks and Geeks",
+    "release date": 1999,
+    "genre": "Comedy",
+    "rating": "8.5"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Freaks and Geeks",
+    "release date": 1999,
+    "genre": "Comedy",
+    "rating": "7.8"
+  },
+  {
+    "reviewer": "Pinkie Petit",
+    "title": "Freaks and Geeks",
+    "release date": 1999,
+    "genre": "Comedy",
+    "rating": "8.8"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Freaks and Geeks",
+    "release date": 1999,
+    "genre": "Comedy",
+    "rating": "9.3"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "General Hospital",
+    "release date": 1963,
+    "genre": "Drama",
+    "rating": "5.5"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "General Hospital",
+    "release date": 1963,
+    "genre": "Drama",
+    "rating": "6.8"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "General Hospital",
+    "release date": 1963,
+    "genre": "Drama",
+    "rating": "5.8"
+  },
+  {
+    "reviewer": "Pinkie Petit",
+    "title": "General Hospital",
+    "release date": 1963,
+    "genre": "Drama",
+    "rating": "4.3"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "General Hospital",
+    "release date": 1963,
+    "genre": "Drama",
+    "rating": "4.5"
+  },
+  {
+    "reviewer": "Colt Steele",
+    "title": "Halt and Catch Fire",
+    "release date": 2014,
+    "genre": "Drama",
+    "rating": "9.9"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Seinfeld",
+    "release date": 1989,
+    "genre": "Comedy",
+    "rating": "8.0"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Seinfeld",
+    "release date": 1989,
+    "genre": "Comedy",
+    "rating": "7.2"
+  },
+  {
+    "reviewer": "Wyatt Skaggs",
+    "title": "Stranger Things",
+    "release date": 2016,
+    "genre": "Drama",
+    "rating": "8.5"
+  },
+  {
+    "reviewer": "Kimbra Masters",
+    "title": "Stranger Things",
+    "release date": 2016,
+    "genre": "Drama",
+    "rating": "8.9"
+  },
+  {
+    "reviewer": "Domingo Cortes",
+    "title": "Stranger Things",
+    "release date": 2016,
+    "genre": "Drama",
+    "rating": "8.9"
+  }
+]
