@@ -3,9 +3,22 @@
 <p align= "center">
     <img src="static/images/MovieReview-660x330.webp" width="1000px">
 
+
+
+
 ## Overview
 
 **_Rate my movie_** is a dynamic web application designed for interactive exploration of movie ratings and genre preferences. The application employs D3.js and tabulator.js to visualize data through dynamic bar graphs and structured tables. Leveraging database queries, the application presents comprehensive information including user names, voted movies, release dates, genres, and user ratings in an ag-Grid.
+
+## Demo
+
+<p align= "center">
+
+https://github.com/Baylife5/Rate-my-movie/assets/87150895/8cd746e2-4ada-40e7-a830-dac5c5e0f2f5
+
+
+                                                                     
+</p>
 
 ## Key features
 
