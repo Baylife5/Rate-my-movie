@@ -7,6 +7,7 @@ import os
 class DataCleaningError(Exception):
     pass
 
+
 class tidy_data():
 
     def __init__(self, query, tabular):
@@ -36,7 +37,7 @@ class tidy_data():
         """
         json_list = []
         for i in self.clean_up_query:
-            print(i)
+
             dict_to_json = dict()
             dict_to_json['genera'] = i[0]
             dict_to_json['rating'] = str(i[1])
