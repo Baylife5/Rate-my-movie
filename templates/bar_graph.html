@@ -96,7 +96,9 @@
             .append("rect")
             .attr("class", "bar")
             .attr("x", (d, i) => Xscale(d.genera) + 20.0)
-            .attr("y", (d, i) => Yscale(d.rating))
+            .attr("y", graph_h - 300)
+            .attr("height", 0)
+
             .attr("width", Xscale.bandwidth() - 50)
             .attr("fill", "steelblue")
             .on("mouseover", (d, i) => {
@@ -116,7 +118,8 @@
               return tooltip.style("visibility", "hidden");
             })
             .transition()
-            .duration(700)
+            .duration(1100)
+            .attr("y", (d, i) => Yscale(d.rating))
             .attr("height", (d) => graph_h - 300 - Yscale(d.rating));
 
           // append a group element that contains X-axis to the svg group element

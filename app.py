@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
+from flask_cors import CORS
 from threading import Thread
 from models import get_queries
 from services.data_service import tidy_data
 
 # configure the url path where flask can serve static files
 app = Flask(__name__, static_url_path='/static')
-
+CORS(app)
 
 # Register the blueprint
 #app.register_blueprint(views, url_prefix='/views')
@@ -22,10 +23,10 @@ def index():
     """
         landing page
     """
-    return "hello"
+    return render_template('home.html')
 
 
-@app.route("/bar_graph")
+@app.route("/bar_graph_data")
 def bar_graph():
     """Display a Bar Graph Visualization Using D3.js.
 
@@ -54,7 +55,7 @@ def tabular():
     return render_template("tabular.html")
 
 
-@app.route('/home')
+@app.route('/movie_data')
 def home():
     """Display the Main App Page in the Flask Application.
 

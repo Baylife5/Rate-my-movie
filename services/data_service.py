@@ -44,6 +44,7 @@ class tidy_data():
             dict_to_json['votes'] = i[2]
             json_list.append(dict_to_json)
         self.query = json_list
+        return self.query
 
     def convert_to_tabular(self):
 
@@ -57,6 +58,7 @@ class tidy_data():
             dict_to_json['rating'] = str(i[4])
             json_list.append(dict_to_json)
         self.struct_data = json_list
+        return self.struct_data
 
     def convert_query_to_json(self, query, name):
         """_summary_:

@@ -64,7 +64,7 @@
             >
               Graph Types
             </a>
-            <div class="dropdown-menu active" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="{{url_for('home')}}">Bar Graph</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
@@ -78,89 +78,46 @@
           style="font-family: Gill Sans, sans-serif; font-size: 20px; color: white"
           >Enter Graph type</a
         >
-        <form class="form-inline">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+       
       </nav>
     </nav>
   </head>
   <body>
-    <!--Bar Graph-->
-    <!--<div class="container" style="float: left; overflow-y: hidden;"> -->
+    <script>
+      function bar_graph(){
+        window.location.href = '/movie_data';
+      }
+    </script>
 
     <div
       style="
         display: flex;
         justify-content: space-between;
-        padding-top: 50px;
+        padding-top: 90px;
         padding-bottom: 50px;
       "
     >
-      <div height="500" width="800" style="padding-left: 30px">
+    <div height="500" width="400" style="padding-left: 35% ">
         <div class="card">
-          <div class="card-body">
+            <div class="card-body" onclick="bar_graph()">
             <h4
-              class="card-title"
-              style="text-align: center; font-family: Gill Sans, sans-serif"
+                class="card-title"
+                style="text-align: center; font-family: Gill Sans, sans-serif"
             >
-              Bar Chart
+                Bar Chart
             </h4>
-            <iframe
-              class="embed-responsive-item"
-              src="{{url_for('bar_graph')}}"
-              height="500"
-              width="600"
-              scrolling="no"
-            ></iframe>
-          </div>
+            <img src="/static/images/153-bar-chart-1.gif" />
+            <p class="card-text"> Visualize movie data through dynamic bar
+              graphs<br> and structured tables. 
+              comprehensive information <br>includes user names, voted movies, release dates, <br>genres
+              and user ratings in an ag-Grid.
+            </p>
+            </div>
         </div>
-      </div>
-      <div style="padding-right: 40px">
-        <div class="card">
-          <div class="card-body">
-            <h4
-              class="card-title"
-              style="text-align: center; font-family: Gill Sans, sans-serif"
-            >
-              Query Output
-            </h4>
-            <div id="table"></div>
-            <script>
-              fetch("/static/tabular.json")
-                .then((res) => res.json())
-                .then((tabledata) => {
-                  //initialize table
-                  var table = new Tabulator("#table", {
-                    data: tabledata,
-                    layout: "fitDataTable",
-                    height: "500px",
-                    renderHorizontal: "virtual",
-                    columns: [
-                      { title: "Reviewer", field: "reviewer" },
-                      { title: "Title", field: "title" },
-                      { title: "Release Data", field: "release date" },
-                      { title: "Genre", field: "genre" },
-                      { title: "Rating", field: "rating", sorter: "number" },
-                    ],
-                  });
-                })
-                .catch((error) => {
-                  console.error("Error fetching data:", error);
-                });
-            </script>
-          </div>
-        </div>
-      </div>
     </div>
+  </div>
   </body>
+  <div style="padding-bottom: 10%"></div>
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
@@ -169,11 +126,12 @@
       <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
-  
+
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright: MDBootstrap.com
     </div>
     <!-- Copyright -->
   </footer>
+
 </html>
