@@ -43,7 +43,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="{{ url_for('index') }}"
+            <a class="nav-link" href="{{url_for('views.index')}}"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
@@ -65,7 +65,7 @@
               Graph Types
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="{{url_for('home')}}">Bar Graph</a>
+              <a class="dropdown-item" href="{{url_for('views.home')}}">Bar Graph</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
@@ -85,7 +85,7 @@
   <body>
     <script>
       function bar_graph(){
-        window.location.href = '/movie_data';
+        window.location.href ="{{ url_for('views.home') }}";
       }
     </script>
 

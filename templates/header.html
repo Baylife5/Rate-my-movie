@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta
+<meta
       http-equiv="X-UA-Compatible"
       content="IE=edge; text/html; charset=utf-8"
     />
@@ -64,8 +61,8 @@
             >
               Graph Types
             </a>
-            <div class="dropdown-menu active" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="{{url_for('views.home')}}">Bar Graph</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{url_for('home')}}">Bar Graph</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
@@ -78,81 +75,6 @@
           style="font-family: Gill Sans, sans-serif; font-size: 20px; color: white"
           >Enter Graph type</a
         >
-        <form class="form-inline">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+       
       </nav>
     </nav>
-  </head>
-  <body>
-    <!--Bar Graph-->
-    <!--<div class="container" style="float: left; overflow-y: hidden;"> -->
-
-    <div
-      style="
-        display: flex;
-        justify-content: space-between;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      "
-    >
-      <div height="500" width="800" style="padding-left: 30px">
-        <div class="card">
-          <div class="card-body">
-            <h4
-              class="card-title"
-              style="text-align: center; font-family: Gill Sans, sans-serif"
-            >
-              Bar Chart
-            </h4>
-            <iframe
-              class="embed-responsive-item"
-              async defer src="{{url_for('views.bar_graph')}}"
-              height="500"
-              width="600"
-              scrolling="no"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-      <div style="padding-right: 40px">
-        <div class="card">
-          <div class="card-body">
-            <h4
-              class="card-title"
-              style="text-align: center; font-family: Gill Sans, sans-serif"
-            >
-              Query Output
-            </h4>
-            <div id="table"></div>
-            <script async defer src = "/static/tabular.js">
-            </script>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-  <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright: MDBootstrap.com
-    </div>
-    <!-- Copyright -->
-  </footer>
-</html>
