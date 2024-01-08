@@ -6,6 +6,7 @@ from flask import Blueprint, render_template, jsonify, send_from_directory
 
 views = Blueprint(__name__, 'views')
 
+
 # Start the Flask development server
 @views.route('/')
 def index():
@@ -13,6 +14,7 @@ def index():
         landing page
     """
     return render_template('home.html')
+
 
 @views.route('/tabular.json')
 def serve_query(filename):
@@ -22,7 +24,8 @@ def serve_query(filename):
     """
     return send_from_directory('static', filename)
 
-@views.route("/")
+
+@views.route("/graph")
 def bar_graph():
     """Display a Bar Graph Visualization Using D3.js.
 
@@ -53,13 +56,17 @@ def tabular():
 
 @views.route("/temp")
 def temp():
+    """"
+    End point will be used in conjuction with react js on the front end
+    """
+    
     tp = get_queries()
     query = tp.average_genre_reviews()
     table = tp.fully_joined_data()
     return jsonify(tidy_data(query, table).structure_query_results())
 
 
-@views.route('/home')
+@views.route('/reviews')
 def home():
     """Display the Main App Page in the Flask Application.
 

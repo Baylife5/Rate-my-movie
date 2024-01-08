@@ -18,10 +18,6 @@ CORS(app)  # Enable CORS for all routes in your app
 # app secret key
 app.secret_key = os.getenv('APP_SECRET')
 
-@app.route('/')
-def home():
-    return" <h1> temp </h1>"
-
 
 @app.route('/movie_data')
 def reviews():
